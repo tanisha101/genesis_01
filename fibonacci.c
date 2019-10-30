@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 int main() {
-   int a, b, c, n;
+   int a, b, c;
 
-   n = 4;
+   int n = 4;
 
    a = b = 1;
    
