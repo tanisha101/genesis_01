@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-   int a, b, c, i, n;
+   int a, b, c, n;
 
    n = 4;
 
@@ -9,7 +9,7 @@ int main() {
    
    printf("%d %d ",a,b);
 
-   for(i = 1; i <= n-2; i++) {
+   for(int i = 1; i <= n-2; i++) {
       c = a + b;
       printf("%d ", c);
       
